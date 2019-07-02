@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2130C43B21C1ECB00009DBCD /* ta.key in Resources */ = {isa = PBXBuildFile; fileRef = 2130C43321C1ECB00009DBCD /* ta.key */; };
+		2130C43C21C1ECB00009DBCD /* test1.key in Resources */ = {isa = PBXBuildFile; fileRef = 2130C43421C1ECB00009DBCD /* test1.key */; };
+		2130C43D21C1ECB00009DBCD /* ca.cer in Resources */ = {isa = PBXBuildFile; fileRef = 2130C43521C1ECB00009DBCD /* ca.cer */; };
+		2130C43E21C1ECB00009DBCD /* ca.crt in Resources */ = {isa = PBXBuildFile; fileRef = 2130C43621C1ECB00009DBCD /* ca.crt */; };
+		2130C43F21C1ECB00009DBCD /* test1.crt in Resources */ = {isa = PBXBuildFile; fileRef = 2130C43721C1ECB00009DBCD /* test1.crt */; };
+		2130C44021C1ECB00009DBCD /* client3.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 2130C43821C1ECB00009DBCD /* client3.ovpn */; };
+		2130C44121C1ECB00009DBCD /* client.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 2130C43921C1ECB00009DBCD /* client.ovpn */; };
+		2130C44221C1ECB00009DBCD /* test1.cer in Resources */ = {isa = PBXBuildFile; fileRef = 2130C43A21C1ECB00009DBCD /* test1.cer */; };
+		21373682205F866F00EFAB5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21373681205F866F00EFAB5C /* AppDelegate.swift */; };
+		21373684205F866F00EFAB5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21373683205F866F00EFAB5C /* ViewController.swift */; };
+		21373687205F866F00EFAB5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21373685205F866F00EFAB5C /* Main.storyboard */; };
+		21373689205F866F00EFAB5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21373688205F866F00EFAB5C /* Assets.xcassets */; };
+		2137368C205F866F00EFAB5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2137368A205F866F00EFAB5C /* LaunchScreen.storyboard */; };
+		213736A2205F9BA500EFAB5C /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213736A1205F9BA500EFAB5C /* PacketTunnelProvider.swift */; };
+		213736A7205F9BA500EFAB5C /* FchVPNPacketTunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2137369F205F9BA500EFAB5C /* FchVPNPacketTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		213736C3205FA8DF00EFAB5C /* KeychainAccess+Reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213736C1205FA8DF00EFAB5C /* KeychainAccess+Reference.swift */; };
+		213736C4205FA8DF00EFAB5C /* NEPacketTunnelFlow+OpenVPN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213736C2205FA8DF00EFAB5C /* NEPacketTunnelFlow+OpenVPN.swift */; };
+		213736C6205FA8F600EFAB5C /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213736C5205FA8F600EFAB5C /* Then.swift */; };
+		217889922064C1770039936E /* client2.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 217889912064C1770039936E /* client2.ovpn */; };
+		21C8EB832074B64E00B83E33 /* client2.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 217889912064C1770039936E /* client2.ovpn */; };
+		21F631CF208D742400EA3B3D /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F631CE208D742400EA3B3D /* NetworkExtension.framework */; };
+		21F631D0208D747800EA3B3D /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F631CE208D742400EA3B3D /* NetworkExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		213736A5205F9BA500EFAB5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21373676205F866E00EFAB5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2137369E205F9BA500EFAB5C;
+			remoteInfo = FchVPNPacketTunnel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		213736AB205F9BA500EFAB5C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				213736A7205F9BA500EFAB5C /* FchVPNPacketTunnel.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2130C43321C1ECB00009DBCD /* ta.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ta.key; sourceTree = "<group>"; };
+		2130C43421C1ECB00009DBCD /* test1.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1.key; sourceTree = "<group>"; };
+		2130C43521C1ECB00009DBCD /* ca.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = ca.cer; sourceTree = "<group>"; };
+		2130C43621C1ECB00009DBCD /* ca.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ca.crt; sourceTree = "<group>"; };
+		2130C43721C1ECB00009DBCD /* test1.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1.crt; sourceTree = "<group>"; };
+		2130C43821C1ECB00009DBCD /* client3.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = client3.ovpn; sourceTree = "<group>"; };
+		2130C43921C1ECB00009DBCD /* client.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = client.ovpn; sourceTree = "<group>"; };
+		2130C43A21C1ECB00009DBCD /* test1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = test1.cer; sourceTree = "<group>"; };
+		2137367E205F866E00EFAB5C /* FchVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FchVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21373681205F866F00EFAB5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21373683205F866F00EFAB5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21373686205F866F00EFAB5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21373688205F866F00EFAB5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2137368B205F866F00EFAB5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2137368D205F866F00EFAB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21373696205F87D900EFAB5C /* FchVPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FchVPN.entitlements; sourceTree = "<group>"; };
+		2137369F205F9BA500EFAB5C /* FchVPNPacketTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FchVPNPacketTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		213736A1205F9BA500EFAB5C /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		213736A3205F9BA500EFAB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213736A4205F9BA500EFAB5C /* FchVPNPacketTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FchVPNPacketTunnel.entitlements; sourceTree = "<group>"; };
+		213736C1205FA8DF00EFAB5C /* KeychainAccess+Reference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeychainAccess+Reference.swift"; sourceTree = "<group>"; };
+		213736C2205FA8DF00EFAB5C /* NEPacketTunnelFlow+OpenVPN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NEPacketTunnelFlow+OpenVPN.swift"; sourceTree = "<group>"; };
+		213736C5205FA8F600EFAB5C /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		217889912064C1770039936E /* client2.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = client2.ovpn; sourceTree = "<group>"; };
+		21F631CE208D742400EA3B3D /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2137367B205F866E00EFAB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F631D0208D747800EA3B3D /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2137369C205F9BA500EFAB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F631CF208D742400EA3B3D /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21373675205F866E00EFAB5C = {
+			isa = PBXGroup;
+			children = (
+				213736D12060A2E700EFAB5C /* config */,
+				21373680205F866E00EFAB5C /* FchVPN */,
+				213736A0205F9BA500EFAB5C /* FchVPNPacketTunnel */,
+				2137367F205F866E00EFAB5C /* Products */,
+				21373693205F87D800EFAB5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2137367F205F866E00EFAB5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2137367E205F866E00EFAB5C /* FchVPN.app */,
+				2137369F205F9BA500EFAB5C /* FchVPNPacketTunnel.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21373680205F866E00EFAB5C /* FchVPN */ = {
+			isa = PBXGroup;
+			children = (
+				21373696205F87D900EFAB5C /* FchVPN.entitlements */,
+				21373681205F866F00EFAB5C /* AppDelegate.swift */,
+				21373683205F866F00EFAB5C /* ViewController.swift */,
+				21373685205F866F00EFAB5C /* Main.storyboard */,
+				21373688205F866F00EFAB5C /* Assets.xcassets */,
+				2137368A205F866F00EFAB5C /* LaunchScreen.storyboard */,
+				2137368D205F866F00EFAB5C /* Info.plist */,
+			);
+			path = FchVPN;
+			sourceTree = "<group>";
+		};
+		21373693205F87D800EFAB5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21F631CE208D742400EA3B3D /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		213736A0205F9BA500EFAB5C /* FchVPNPacketTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				213736C0205FA86700EFAB5C /* Extensions */,
+				213736A1205F9BA500EFAB5C /* PacketTunnelProvider.swift */,
+				213736A3205F9BA500EFAB5C /* Info.plist */,
+				213736A4205F9BA500EFAB5C /* FchVPNPacketTunnel.entitlements */,
+			);
+			path = FchVPNPacketTunnel;
+			sourceTree = "<group>";
+		};
+		213736C0205FA86700EFAB5C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				213736C5205FA8F600EFAB5C /* Then.swift */,
+				213736C1205FA8DF00EFAB5C /* KeychainAccess+Reference.swift */,
+				213736C2205FA8DF00EFAB5C /* NEPacketTunnelFlow+OpenVPN.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		213736D12060A2E700EFAB5C /* config */ = {
+			isa = PBXGroup;
+			children = (
+				2130C43521C1ECB00009DBCD /* ca.cer */,
+				2130C43621C1ECB00009DBCD /* ca.crt */,
+				2130C43921C1ECB00009DBCD /* client.ovpn */,
+				2130C43821C1ECB00009DBCD /* client3.ovpn */,
+				2130C43321C1ECB00009DBCD /* ta.key */,
+				2130C43A21C1ECB00009DBCD /* test1.cer */,
+				2130C43721C1ECB00009DBCD /* test1.crt */,
+				2130C43421C1ECB00009DBCD /* test1.key */,
+				217889912064C1770039936E /* client2.ovpn */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2137367D205F866E00EFAB5C /* FchVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21373690205F866F00EFAB5C /* Build configuration list for PBXNativeTarget "FchVPN" */;
+			buildPhases = (
+				2137367A205F866E00EFAB5C /* Sources */,
+				2137367B205F866E00EFAB5C /* Frameworks */,
+				2137367C205F866E00EFAB5C /* Resources */,
+				213736AB205F9BA500EFAB5C /* Embed App Extensions */,
+				213736CD205FAC3400EFAB5C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				213736A6205F9BA500EFAB5C /* PBXTargetDependency */,
+			);
+			name = FchVPN;
+			productName = FchVPN;
+			productReference = 2137367E205F866E00EFAB5C /* FchVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2137369E205F9BA500EFAB5C /* FchVPNPacketTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 213736A8205F9BA500EFAB5C /* Build configuration list for PBXNativeTarget "FchVPNPacketTunnel" */;
+			buildPhases = (
+				2137369B205F9BA500EFAB5C /* Sources */,
+				2137369C205F9BA500EFAB5C /* Frameworks */,
+				2137369D205F9BA500EFAB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FchVPNPacketTunnel;
+			productName = FchVPNPacketTunnel;
+			productReference = 2137369F205F9BA500EFAB5C /* FchVPNPacketTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21373676205F866E00EFAB5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "北京仙指信息技术有限公司";
+				TargetAttributes = {
+					2137367D205F866E00EFAB5C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+						};
+					};
+					2137369E205F9BA500EFAB5C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 21373679205F866E00EFAB5C /* Build configuration list for PBXProject "FchVPN" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21373675205F866E00EFAB5C;
+			productRefGroup = 2137367F205F866E00EFAB5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2137367D205F866E00EFAB5C /* FchVPN */,
+				2137369E205F9BA500EFAB5C /* FchVPNPacketTunnel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2137367C205F866E00EFAB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2130C43B21C1ECB00009DBCD /* ta.key in Resources */,
+				2130C43E21C1ECB00009DBCD /* ca.crt in Resources */,
+				2130C44221C1ECB00009DBCD /* test1.cer in Resources */,
+				217889922064C1770039936E /* client2.ovpn in Resources */,
+				2130C44021C1ECB00009DBCD /* client3.ovpn in Resources */,
+				2137368C205F866F00EFAB5C /* LaunchScreen.storyboard in Resources */,
+				2130C43D21C1ECB00009DBCD /* ca.cer in Resources */,
+				21373689205F866F00EFAB5C /* Assets.xcassets in Resources */,
+				21373687205F866F00EFAB5C /* Main.storyboard in Resources */,
+				2130C44121C1ECB00009DBCD /* client.ovpn in Resources */,
+				2130C43C21C1ECB00009DBCD /* test1.key in Resources */,
+				2130C43F21C1ECB00009DBCD /* test1.crt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2137369D205F9BA500EFAB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C8EB832074B64E00B83E33 /* client2.ovpn in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		213736CD205FAC3400EFAB5C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/OpenVPNAdapter.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KeychainAccess.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/Carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2137367A205F866E00EFAB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21373684205F866F00EFAB5C /* ViewController.swift in Sources */,
+				21373682205F866F00EFAB5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2137369B205F9BA500EFAB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213736C6205FA8F600EFAB5C /* Then.swift in Sources */,
+				213736C4205FA8DF00EFAB5C /* NEPacketTunnelFlow+OpenVPN.swift in Sources */,
+				213736A2205F9BA500EFAB5C /* PacketTunnelProvider.swift in Sources */,
+				213736C3205FA8DF00EFAB5C /* KeychainAccess+Reference.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		213736A6205F9BA500EFAB5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2137369E205F9BA500EFAB5C /* FchVPNPacketTunnel */;
+			targetProxy = 213736A5205F9BA500EFAB5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21373685205F866F00EFAB5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21373686205F866F00EFAB5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2137368A205F866F00EFAB5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2137368B205F866F00EFAB5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2137368E205F866F00EFAB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2137368F205F866F00EFAB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21373691205F866F00EFAB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FchVPN/FchVPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALEG9GB89Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = FchVPN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/lz4/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/lz4/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/lz4/lib/sim",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/sim",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/sim",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/sim",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianzhi.www.FchVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21373692205F866F00EFAB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FchVPN/FchVPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALEG9GB89Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = FchVPN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/lz4/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/lz4/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/lz4/lib/sim",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/sim",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/sim",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/sim",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianzhi.www.FchVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		213736A9205F9BA500EFAB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FchVPNPacketTunnel/FchVPNPacketTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALEG9GB89Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = FchVPNPacketTunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/lz4/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/lz4/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/lz4/lib/sim",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/sim",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/sim",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/sim",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianzhi.www.FchVPN.FchVPNPacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		213736AA205F9BA500EFAB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FchVPNPacketTunnel/FchVPNPacketTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALEG9GB89Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/KeychainAccess/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = FchVPNPacketTunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/lz4/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/lz4/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/lz4/lib/sim",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/ios",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/macos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/sim",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/sim",
+					"$(PROJECT_DIR)/Carthage/Checkouts/openvpn-adapter/OpenVPN\\ Adapter/Vendors/mbedtls/lib/sim",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianzhi.www.FchVPN.FchVPNPacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21373679205F866E00EFAB5C /* Build configuration list for PBXProject "FchVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2137368E205F866F00EFAB5C /* Debug */,
+				2137368F205F866F00EFAB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21373690205F866F00EFAB5C /* Build configuration list for PBXNativeTarget "FchVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21373691205F866F00EFAB5C /* Debug */,
+				21373692205F866F00EFAB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		213736A8205F9BA500EFAB5C /* Build configuration list for PBXNativeTarget "FchVPNPacketTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213736A9205F9BA500EFAB5C /* Debug */,
+				213736AA205F9BA500EFAB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21373676205F866E00EFAB5C /* Project object */;
+}

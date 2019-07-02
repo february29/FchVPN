@@ -1,0 +1,9 @@
+{
+  "commitish" : "f016614ed3dec30672e4f1821344b7992825a98d",
+  "iOS" : [
+    {
+      "name" : "OpenVPNAdapter",
+      "hash" : "1b386b15a1a95645cc95a8b9bf8d3b126e27a4d8112d547df84a94f25ea5d071"
+    }
+  ]
+}
